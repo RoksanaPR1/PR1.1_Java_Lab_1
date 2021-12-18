@@ -91,5 +91,16 @@ public class Main {
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
          *   wynik wyświetlić w konsoli programu
          */
+
+        System.out.print("Podaj pierwszą liczbę: ");
+        int pierwszaLiczba = scan.nextInt();
+        System.out.print("Podaj drugą liczbę: ");
+        int drugaLiczba = scan.nextInt();
+
+        System.out.println("Dodawanie liczb: " + (liczbaA + liczbaB));
+        System.out.println("Odejmowanie liczb: " + (liczbaA - liczbaB));
+        System.out.println("Mnożenie liczb: " + (liczbaA * liczbaB));
+        System.out.println("Dzielenie liczb: " + (liczbaA / liczbaB));
+        System.out.println("Dzielenie modulo liczb: " + (liczbaA % liczbaB));
     }
 }
