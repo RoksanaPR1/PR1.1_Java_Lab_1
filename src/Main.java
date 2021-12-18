@@ -179,6 +179,8 @@ public class Main {
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
 
+        String parzystość = nrIndeksu%2==0 ? "parzysty" : "nieparzysty";
+        System.out.printf("Podany wcześniej numer indeksu jest %s\n", parzystość);
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
