@@ -199,5 +199,23 @@ public class Main {
         else
             System.out.println("Prawdopodobnie temperatura w stopniach Fahrenheita");
 
+        /* Tablice - cw_6 */
+
+        /* zad1. stworzyć tablicę typu double 5-cio elementową,
+        przypisać do niej wartości i wyświetlić */
+
+        double[] tablica = new double[5];
+        tablica[0] = 3.4D;
+        tablica[1] = -46.3D;
+        tablica[2] = 6534.0D;
+        tablica[3] = 12.2D;
+        tablica[4] = -3.4D;
+
+        System.out.println("Wartości z tablicy:");
+        System.out.printf("Indeks 0, wartość: %f\n", tablica[0]);
+        System.out.printf("Indeks 1, wartość: %f\n", tablica[1]);
+        System.out.printf("Indeks 2, wartość: %f\n", tablica[2]);
+        System.out.printf("Indeks 3, wartość: %f\n", tablica[3]);
+        System.out.printf("Indeks 4, wartość: %f\n", tablica[4]);
     }
 }
