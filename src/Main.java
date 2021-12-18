@@ -47,6 +47,22 @@ public class Main {
          *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
          *  */
 
+        int liczbaA = 20;
+        int liczbaB = 6;
+        double liczbaX = 20.0D;
+        double liczbaY = 6.0D;
+
+        System.out.println("Dodawanie liczb całkowitych: " + (liczbaA + liczbaB));
+        System.out.println("Odejmowanie liczb całkowitych: " + (liczbaA - liczbaB));
+        System.out.println("Mnożenie liczb całkowitych: " + (liczbaA * liczbaB));
+        System.out.println("Dzielenie liczb całkowitych: " + (liczbaA / liczbaB));
+        System.out.println("Dzielenie modulo liczb całkowitych: " + (liczbaA % liczbaB));
+
+        System.out.println("Dodawanie liczb zmiennoprzecinkowych: " + (liczbaX + liczbaY));
+        System.out.println("Odejmowanie liczb zmiennoprzecinkowych: " + (liczbaX - liczbaY));
+        System.out.println("Mnożenie liczb zmiennoprzecinkowych: " + (liczbaX * liczbaY));
+        System.out.println("Dzielenie liczb zmiennoprzecinkowych: " + (liczbaX / liczbaY));
+        System.out.println("Dzielenie modulo liczb zmiennoprzecinkowych: " + (liczbaX % liczbaY));
 
     }
 }
