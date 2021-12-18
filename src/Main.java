@@ -172,6 +172,10 @@ public class Main {
          * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
          * */
 
+        if (30%3 == 0)
+            System.out.println("Podzielny przez 3");
+        else
+            System.out.println("Niepodzielny przez 3");
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
 
