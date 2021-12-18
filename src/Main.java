@@ -166,5 +166,38 @@ public class Main {
         System.out.println("(y >= x && c) : " + (y >= x && c)); // true
         System.out.println("(a == b || b == c) && (x > y || y > z) : " + ((a == b || b == c) && (x > y || y > z))); // false
 
+        /* ćw.5 */
+
+        /* zad.1 podziel swój wiek przez modulo 3 i jeśli twój wiek zwraca 0 wyświetl napis "Podzielny przez 3",
+         * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
+         * */
+
+        if (30%3 == 0)
+            System.out.println("Podzielny przez 3");
+        else
+            System.out.println("Niepodzielny przez 3");
+
+        /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
+
+        String parzystość = nrIndeksu%2==0 ? "parzysty" : "nieparzysty";
+        System.out.printf("Podany wcześniej numer indeksu jest %s\n", parzystość);
+
+        /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
+         * i stwórz konstrukcję else if z dowolnymi komunikatami */
+
+        System.out.print("Podaj liczbę zmiennoprzecinkową: ");
+        double liczbaZmiennoprzecinkowa = scan.nextDouble();
+
+        if(liczbaZmiennoprzecinkowa < -5.5D)
+            System.out.println("Jest mróz na dworze");
+        else if (liczbaZmiennoprzecinkowa < 15.3D)
+            System.out.println("Wartość wpadła w przedział od -5,5 do 15,3");
+        else if (liczbaZmiennoprzecinkowa <= 36.6D)
+            System.out.println("Górną granicą tego przedziału jest temperatura ciała człowieka");
+        else if (liczbaZmiennoprzecinkowa > 100.0D)
+            System.out.println("Powyżej temperatury wrzenia");
+        else
+            System.out.println("Prawdopodobnie temperatura w stopniach Fahrenheita");
+
     }
 }
