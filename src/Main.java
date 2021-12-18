@@ -102,5 +102,11 @@ public class Main {
         System.out.println("Mnożenie liczb: " + (liczbaA * liczbaB));
         System.out.println("Dzielenie liczb: " + (liczbaA / liczbaB));
         System.out.println("Dzielenie modulo liczb: " + (liczbaA % liczbaB));
+
+        /* ćw.4 */
+
+        /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów arytmetycznych i logicznych */
+
+
     }
 }
