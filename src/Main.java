@@ -4,5 +4,10 @@ public class Main {
 
         System.out.println("Witaj świecie!");
 
+//        ćw.1 napisać po kilka przykładów wypisywania tekstu w konsoli,
+//        Użyć każdej z opcji
+
+
+
     }
 }
