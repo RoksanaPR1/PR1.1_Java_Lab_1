@@ -158,6 +158,13 @@ public class Main {
 
         System.out.println("((x > y) || (a && b)) : " + ((x > y) || (a && c))); // true
 
+        /* Przykłady złożonych operacji */
+        System.out.println("(a && b && c) : " + (a && b && c)); // false
+        System.out.println("(x == y || x == z) : " + (x == y || x == z)); // true
+        System.out.println("(a || b) && (x < y) : " + ((a || b) && (x < y))); // true
+        System.out.println("(a && b && (x < y)) : " + (a && b && (x < y))); // false
+        System.out.println("(y >= x && c) : " + (y >= x && c)); // true
+        System.out.println("(a == b || b == c) && (x > y || y > z) : " + ((a == b || b == c) && (x > y || y > z))); // false
 
     }
 }
