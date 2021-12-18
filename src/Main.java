@@ -185,5 +185,19 @@ public class Main {
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
 
+        System.out.print("Podaj liczbę zmiennoprzecinkową: ");
+        double liczbaZmiennoprzecinkowa = scan.nextDouble();
+
+        if(liczbaZmiennoprzecinkowa < -5.5D)
+            System.out.println("Jest mróz na dworze");
+        else if (liczbaZmiennoprzecinkowa < 15.3D)
+            System.out.println("Wartość wpadła w przedział od -5,5 do 15,3");
+        else if (liczbaZmiennoprzecinkowa <= 36.6D)
+            System.out.println("Górną granicą tego przedziału jest temperatura ciała człowieka");
+        else if (liczbaZmiennoprzecinkowa > 100.0D)
+            System.out.println("Powyżej temperatury wrzenia");
+        else
+            System.out.println("Prawdopodobnie temperatura w stopniach Fahrenheita");
+
     }
 }
