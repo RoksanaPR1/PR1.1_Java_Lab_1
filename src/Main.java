@@ -199,5 +199,10 @@ public class Main {
         else
             System.out.println("Prawdopodobnie temperatura w stopniach Fahrenheita");
 
+        /* Tablice - cw_6 */
+
+        /* zad1. stworzyć tablicę typu double 5-cio elementową,
+        przypisać do niej wartości i wyświetlić */
+
     }
 }
