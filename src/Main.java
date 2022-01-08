@@ -17,6 +17,7 @@ public class Main {
         System.out.print("Z kolei ");
         System.out.print("ten format zostawia ");
         System.out.print("kursor na swoim miejscu.");
+        Zmiany
 
         int zmiennaInt = 7;
         System.out.println("\nzmienna int = " + zmiennaInt);
